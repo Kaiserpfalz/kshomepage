@@ -1,0 +1,39 @@
+{{$hasParams := .Params}}
+{{$src := ""}}
+{{$to := ""}}
+{{$btn := ""}}
+{{$stacked := false}}
+
+{{if $hasParams}}
+    {{if (isset .Params "src")}}
+        {{ $src = .Params.src}}
+    {{end}}
+    {{if (isset .Params "to")}}
+        {{ $to = .Params.to}}
+    {{end}}
+
+    {{if (isset .Params "button")}}
+        {{ $btn = .Params.button}}
+    {{end}}
+    {{$btn = $btn | default $to}}
+
+    {{if (isset .Params "stacked")}}
+        {{ $stacked = true}}
+    {{end}}
+{{end}}
+
+<div class="shadow {{if not $stacked}}flex{{end}} bg-white w-full rounded-lg">
+  <div class="flex-1 hidden sm:block">
+    <img src="{{relURL $src}}" alt="" class="h-full w-full aspect-video object-cover p-0 !m-0 block rounded-l-lg">
+  </div>
+  <div class="p-4 prose flex-[2] flex flex-col">
+    {{.Inner | .Page.RenderString}}
+    {{if $btn}}
+    <a href="{{$to}}" class="mt-auto block px-4 py-2 rounded bg-gray-900 text-center no-underline group hover:bg-gray-700 text-white">
+      <span class="">
+        {{$btn}} →
+      </span>
+    </a>
+    {{end}}
+  </div>
+</div>

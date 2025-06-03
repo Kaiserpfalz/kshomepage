@@ -1,0 +1,15 @@
+{{$hasParams := .Params}}
+{{$label := ""}}
+{{if $hasParams}}
+    {{if (isset .Params "label")}}
+        {{ $label = .Params.label}}
+    {{end}}
+{{end}}
+
+{{ $.Page.Store.SetInMap "elements" $label $label }}
+
+<div class="shadow-lg rounded-lg mb-4 container scroll-m-16" id="{{$label}}">
+  <div class="prose prose-lg p-8">
+    {{ .Inner | .Page.RenderString }}
+  </div>
+</div>

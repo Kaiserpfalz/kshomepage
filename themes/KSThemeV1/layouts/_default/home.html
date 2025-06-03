@@ -1,0 +1,117 @@
+{{ define "header" }}
+<header class="w-full bg-fixed bg-cover bg-bottom relative lg:py-12">
+  <div class="inset-0 absolute w-full -z-10">
+    <img src="./images/haus.jpg" alt="" class="w-full brightness-50 object-cover h-full" style="object-position: 50% 55%;">
+  </div>
+  <div class="container mx-auto flex items-end gap-8  pt-16 lg:pt-42 pb-28 px-4">
+    <div class="prose lg:prose-xl prose-invert mx-auto">
+      <h1 class="text-center">K.D.St.V. Kaiserpfalz</h1>
+      <h2 class="font-normal text-center max-w-md lg:max-w-xl">Seit über 100 Jahren <b>erfolgreich</b> in <b>Studium</b> und Karriere</h2>
+      <a href="{{relURL "semesterprogramm"}}" class="mx-auto block max-w-max px-8 py-2 bg-white text-black text-lg lg:text-2xl no-underline font-bold shadow cursor-pointer group rounded-sm">
+        <span class="group-hover:text-gradient">
+          Werde Teil unserer Geschichte!
+        </span>
+      </a>
+    </div>
+  </div>
+</header>
+
+{{ end}}
+
+{{ define "main" }}
+<section class="mt-8 mb-16">
+  <div class="hidden sm:grid grid-cols-1 sm:grid-cols-2 gap-8 md:grid-cols-3">
+    <div class="prose prose-lg">
+      <h2 class="mb-2 font-black">{{.Site.Data.stats.people.total}}</h2>
+      <p>Mitglieder</p>
+    </div>
+    <div class="prose prose-lg">
+      <h2 class="mb-2 font-black">{{.Site.Data.stats.people.active}}</h2>
+      <p>Aktive Mitglieder</p>
+    </div>
+    <div class="prose prose-lg md:text-end">
+      <h2 class="mb-2 font-black">{{.Site.Data.stats.people.years}}</h2>
+      <p>Jahre Erfolgsgeschichte</p>
+    </div>
+  </div>
+</section>
+
+<section class="flex gap-8 mb-16">
+  <div class="flex flex-col xl:items-center flex-[2]">
+    <div class="prose mb-8 xl:mr-auto text-justify">
+      <h2 class="text-purple-500 mb-2">Über uns</h2>
+      <p class="mb-2">
+        Seit über 100 Jahren stehen wir für Freundschaft, Studium und gemeinsame Werte in Aachen.
+        Bei uns findest du rund 20 aktive Studenten und ein Netzwerk von über 300 Mitgliedern.
+        Zusammen leben wir Tradition auf moderne Art - während des Studiums und darüber hinaus.
+      </p>
+      <a href="{{relURL "about"}}">Mehr erfahren</a>
+    </div>
+    <div class="prose mb-8 xl:ml-auto text-justify">
+      <h2 class="text-purple-500 mb-2">Haus Dreizehnlinden</h2>
+      <p>
+        Unser Verbindungshaus „Dreizehnlinden“ bietet seit 1954 Raum fürs Studium, Gemeinschaft und entspanntes Wohnen mitten in Aachen. Hier findest du 12 gemütliche Zimmer, eine große Gemeinschaftsküche, Lernräume, einen eigenen Thekenraum und zwei sonnige Terrassen – zentral gelegen und nur wenige Minuten von der Uni entfernt.
+      </p>
+      <p class="mb-2">
+        Interesse an einem Zimmer? Melde dich über unsere Anzeige auf <a href="https://www.wg-gesucht.de/2793985.html">WG-Gesucht</a> oder schreib uns direkt an <a href="mailto:info@kaiserpfalz-aachen.de">info@kaiserpfalz-aachen.de</a>.
+      </p>
+      <a href="{{relURL "haus-dreizehnlinden"}}">Mehr zum Haus</a>
+    </div>
+  </div>
+  <div class="flex-1 hidden lg:block">
+    <img src="./images/sommernacht.jpeg" alt="" class="h-full object-cover">
+  </div>
+</section>
+
+<section class="mb-24">
+  <div class="grid gap-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+    {{range .Site.Data.indexcards}}
+    <div class="aspect-video cursor-pointer transition duration-150 flex items-center justify-center flex-row bg-cover" style="background-image: url({{relURL .image}});">
+      <div class="p-8 pointer-fine:hover:opacity-100 pointer-fine:opacity-0 bg-black/80 h-full w-full">
+        <div class="prose prose-sm prose-invert">
+          <h1 class="mb-2">{{.title}}</h1>
+          <p class="mt-0">{{.text}}</p>
+          <a href="{{relURL .href}}" class="hover:text-gradient">{{.link}} →</a>
+        </div>
+      </div>
+    </div>
+    {{end}}
+
+  </div>
+</section>
+
+<section class="flex gap-8">
+  <div class="flex flex-col xl:items-center flex-[2]">
+    <div class="prose mb-8 xl:mr-auto text-justify">
+      <h3 class="text-purple-500 mb-0 ">Häufige Fragen</h3>
+      <p class="mb-2">
+        Um das Verbindungswesen ranken sich viele Steriotype und Vorannahmen, die häufigsten davon wollen wir hier einmal kurz beleuchten.
+      </p>
+      {{range .Site.Data.faq}}
+      <details class="border-2 border-zinc-500 mb-2" name="faq" {{if isset . "open"}}open{{end}}>
+        <summary class="px-2 py-1 cursor-pointer font-semibold">
+          {{.question}}
+        </summary>
+        <div class="p-2">
+          {{.answer | $.Page.RenderString}}
+        </div>
+      </details>
+      {{end}}
+    </div>
+  </div>
+  <div class="flex-1 hidden lg:block">
+    <div class="prose">
+      <h1>Zimmer gesucht?</h1>
+      <p>Egal ob du schon in Aachen wohnst, oder neu in Aachen bist, bei uns ist jeder herzlich willkommen! Unsere 12 Zimmer haben zwischen 12 und 20 m² und kosten zwischen 170 und 230 Euro im Monat.
+        Schau auf unserer WG-Gesucht Seite vorbei, um mehr zu erfahren!</p>
+
+      <a href="https://www.wg-gesucht.de/2793985.html" class="no-underline flex items-center hover:text-lime-500">
+        WG-Gesucht?
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M17.079 12.5H5v-1h12.079l-5.792-5.792L12 5l7 7l-7 7l-.713-.708z" />
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+{{end}}

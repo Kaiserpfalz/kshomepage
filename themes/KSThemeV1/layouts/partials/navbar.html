@@ -1,0 +1,33 @@
+<nav class="bg-white shadow-lg p-4 md:p-6 font-[Montserrat] text-lg sticky top-0 z-40 text-neutral-700">
+  <div class="container mx-auto md:px-4 lg:flex items-center gap-4">
+    <a href="{{relURL ""}}" class="flex items-center gap-2 group max-w-max">
+      <img src="{{relURL "images/KSApp.webp"}}" class="max-h-[40px]" alt="">
+      <span class="text-xl group-hover:text-gradient font-semibold">{{with .Site}}{{.Title}}{{end}}</span>
+    </a>
+    <div class="hidden gap-4 items-center ml-auto lg:flex">
+      {{ $current := . }}
+      {{ range .Site.Menus.nav }}
+      {{ $active := eq page.CurrentSection.Title .Name }}
+      {{ $active = or $active (eq .Name $current.Title) }}
+      <a href="{{ .URL }}" class="hover:text-gradient {{ if $active }}text-gradient hover:text-lime-400{{ end }}">
+        {{ .Name }}</a>
+      {{ end }}
+    </div>
+    <div class="mx-auto lg:hidden">
+      <details>
+        <summary class="list-none cursor-pointer hover:text-lime-500 absolute top-6 md:top-8 right-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M3 18v-2h18v2zm0-5v-2h18v2zm0-5V6h18v2z"/></svg>
+        </summary>
+        <div class="gap-4 items-center ml-auto flex flex-col mt-4">
+          {{ $current := . }}
+          {{ range .Site.Menus.nav }}
+          {{ $active := eq page.CurrentSection.Title .Name }}
+          {{ $active = or $active (eq .Name $current.Title) }}
+          <a href="{{ .URL }}" class="hover:text-gradient {{ if $active }}text-gradient hover:text-lime-400{{ end }}">
+            {{ .Name }}</a>
+          {{ end }}
+        </div>
+      </details>
+    </div>
+  </div>
+</nav>

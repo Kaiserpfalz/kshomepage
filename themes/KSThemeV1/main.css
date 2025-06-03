@@ -1,0 +1,32 @@
+@import "tailwindcss" source("../../");
+@plugin "@tailwindcss/typography";
+
+
+@utility bg-gradient {
+    background: rgb(163, 230, 53);
+    background: linear-gradient(160deg, rgba(163, 230, 53, 1) 0%, rgba(22, 163, 74, 1) 100%);
+}
+
+@utility text-gradient {
+    background: linear-gradient(160deg, rgba(163, 230, 53, 1) 0%, rgba(22, 163, 74, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    max-width: max-content;
+}
+
+.prose-gradient h1 {
+    @apply text-gradient
+}
+
+@custom-variant pointer-coarse {
+    @media (pointer: coarse) {
+      @slot;
+    }
+  }
+
+  @custom-variant pointer-fine {
+    @media (pointer: fine) {
+      @slot;
+    }
+  }

@@ -1,0 +1,9 @@
+<div class="flex items-center container py-4 gap-8 {{if (isset .Params "flip")}}flex-row-reverse{{end}}">
+  <div class="prose flex-1">
+    <h2 class="mb-2">{{.Get "title"}}</h2>
+      {{ .Inner | .Page.RenderString }}
+  </div>
+  <div class="max-h-[400px] overflow-hidden flex-1 rounded-2xl">
+    <img src="{{relURL (.Get "src")}}" alt="" class="aspect-video h-full w-full object-cover">
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}" class="scroll-smooth">
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<body class="min-h-screen flex flex-col">
+  {{ block "header" . }}{{ end }}
+  {{ partial "navbar.html" . }}
+  <main class="p-4 container mx-auto">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{block "footer" .}}
+  <footer class="mt-auto w-full p-4">
+    {{ partial "footer.html" . }}
+  </footer>
+  {{end}}
+</body>
+</html>

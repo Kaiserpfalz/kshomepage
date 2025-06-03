@@ -1,0 +1,22 @@
+{{$hasParams := .Params}}
+{{$max := -1}}
+{{$classList := "grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3"}}
+
+{{if $hasParams}}
+    {{if (isset .Params "max")}}
+        {{ $max = .Params.max}}
+    {{end}}
+
+    {{if (eq $max "2")}}
+      {{$classList = "grid-cols-1 xl:grid-cols-2"}}
+    {{end}}
+    {{if (eq $max "4")}}
+      {{$classList = "grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"}}
+    {{end}}
+{{end}}
+
+<div class="mb-16">
+  <div class="grid gap-4 {{$classList}}">
+    {{ .Inner }}
+  </div>
+</div>

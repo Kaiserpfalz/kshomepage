@@ -1,0 +1,60 @@
+baseURL = "https://server.stevetec.de/ks/_fullmock/"
+languageCode = "de-DE"
+title = "Kaiserpfalz"
+theme = "KSThemeV1"
+
+disableKinds = ["taxonomy", "term"]
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ''
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = 'dracula'
+    tabWidth = 4
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[menu]
+    [[menu.nav]]
+    identifier = "haus"
+    name = "Haus Dreizehnlinden"
+    url = "/haus-dreizehnlinden"
+    weight = 1
+
+    [[menu.nav]]
+    identifier = "semesterprogramm"
+    name = "Semesterprogramm"
+    url = "/semesterprogramm"
+    weight = 2
+
+    [[menu.nav]]
+    identifier = "about"
+    name = "Über uns"
+    url = "/about"
+    weight = 3
+
+    [[menu.nav]]
+    identifier = "contect"
+    name = "Kontakt"
+    url = "/kontakt"
+    weight = 4
+
+[[module.mounts]]
+source = 'assets'
+target = 'assets'
+
+[[module.mounts]]
+source = 'content'
+target = 'assets'
+
+[[module.mounts]]
+source = 'static/images'
+target = 'assets/images'

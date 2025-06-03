@@ -1,0 +1,18 @@
+{{- with resources.Get "css/tailwind.css" }}
+{{- if eq hugo.Environment "development" }}
+<link rel="stylesheet" href="{{ .RelPermalink }}">
+{{- else }}
+{{- with . | minify | fingerprint }}
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+{{- end }}
+{{- end }}
+{{- end }}
+
+<style>
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('{{ .Site.BaseURL }}fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+  }
+</style>

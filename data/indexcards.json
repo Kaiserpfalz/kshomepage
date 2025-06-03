@@ -1,0 +1,45 @@
+[
+    {
+        "title":"Haus Dreizehnlinden",
+        "text":"Zentral gelegen verfügt es über alles was ein Erfolgreiches Studium möglich macht.",
+        "image":"images/haus.jpg",
+        "link":"Mehr zum Haus",
+        "href":"haus-dreizehnlinden"
+    },
+    {
+        "title":"Veranstaltungen",
+        "text":"Unser Semesterprogramm ist dein Guide zu coolen Veranstaltungen",
+        "image":"images/AF97229F-6263-4DD7-9AE4-22695656EEBF.jpeg",
+        "link":"Reinschauen, Dabei sein!",
+        "href":"semesterprogramm"
+    },
+    {
+        "title":"Instagram",
+        "text":"Noch Mehr Impressionen und Live-Benachichtigungen zu aktuellen Terminen",
+        "image":"images/neonparty.jpeg",
+        "link":"@kaiserpfalz_aachen",
+        "href":"https://www.instagram.com/kaiserpfalz_aachen/"
+    },
+
+    {
+        "title":"Tradition",
+        "text":"Werde Teil unserer über hundertjährigen Erfolgsgeschichte",
+        "image":"images/100_commers.jpeg",
+        "link":"Mehr erfahren",
+        "href":"geschichte"
+    },
+    {
+        "title":"Gemeinschaft",
+        "text":"Erfahre mehr über das Band das uns Verbindet",
+        "image":"images/100_church.jpeg",
+        "link":"Über uns",
+        "href":"semesterprogramm"
+    },
+    {
+        "title":"Feste",
+        "text":"Höhepunkte des Semesters sind unsere traditionellen Stiftungs- und Nikolausfeste.",
+        "image":"images/100_2.jpeg",
+        "link":"Semesterprogramm",
+        "href":"semesterprogramm"
+    }
+]
