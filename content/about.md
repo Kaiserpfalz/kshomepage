@@ -51,9 +51,3 @@ Orientierung an christlichen Werten und dem katholischen Glauben.
 {{</card>}}
 
 {{</grid>}}
-
-{{<section>}}
-## Geschichte
-
-Wir blicken auf über ein Jahrhundert Geschichte als Gemeinschaft zurück. Einen kurzen chronologischen Abriss findest du [hier](../geschichte).
-{{</section>}}

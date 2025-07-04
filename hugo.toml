@@ -1,4 +1,4 @@
-baseURL = "https://kaiserpfalz-aachen.de"
+baseURL = "https://server.stevetec.de/ks/_fullmock/"
 languageCode = "de-DE"
 title = "Kaiserpfalz"
 theme = "KSThemeV1"

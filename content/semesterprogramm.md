@@ -12,29 +12,21 @@ Unser Semesterprogramm ist dein Zugang zu exklusiven Veranstaltungen, einmaligen
 
 {{</section>}}
 
-{{<event-info title="Vorträge & Seminare – Inspiration und exklusive Einblicke" src="images/haus.jpg">}}
-Triff bei unseren Veranstaltungen hochkarätige Referenten und Persönlichkeiten aus Wirtschaft und Wissenschaft. Bei uns kannst du in lockerer Atmosphäre direkt mit Vorstandsvorsitzenden oder Hochschulprofessoren ins Gespräch kommen – eine Gelegenheit, die es sonst nirgendwo gibt.
+{{<event-info title="Reisen und Exkursion" src="images/haus.jpg">}}
+Im Rahmen unseres Semesterprogramms unternehmen wir regelmäßig Reisen. Über den Cartellverband der katholischen deutschen Studentenverbindungen (CV), unseren Dachverband, stehen uns deutschlandweit Übernachtungsmöglichkeiten und Kontakte zur Verfügung, die unsere Reisen besonders abwechslungsreich und spannend machen. Durch Exkursionen zu Unternehmen und Forschungseinrichtungen erweitern wir dabei kontinuierlich unseren Horizont.
+
 {{</event-info>}}
 
-{{<event-info title="Exkursionen – Exklusive Einblicke in die Praxis" src="images/neonparty.jpeg" flip="">}}
-Unsere Exkursionen führen dich hinter die Kulissen von renommierten Unternehmen und Forschungseinrichtungen. Hier erhältst du wertvolle Eindrücke und knüpfst persönliche Kontakte für deine Karriere.
-{{</event-info>}}
-{{<event-info title="Traditionelle Feste – Gemeinschaft und Tradition erleben" src="images/kneipe.jpg">}}
-Höhepunkte unseres Semesters sind das Stiftungsfest und das Nikolausfest – festliche Anlässe, die Generationen verbinden und unsere besondere Gemeinschaft stärken.
+{{<event-info title="Studentische Feste und Traditionen" src="images/kneipe.jpg" flip="">}}
+Kaiserpfalz steht für Freundschaft, die weit über das Studium hinausreichen. Beim Stiftungs- und Nikolausfest feiern wir unsere Gemeinschaft – gemeinsam mit aktuellen und ehemaligen Studierenden. Darüber hinaus bereichern zahlreiche Veranstaltungen das Semesterprogramm, die seit über hundert Jahren typisch für das studentische Leben sind. 
 {{</event-info>}}
 
-{{<event-info title="Partys – Gemeinsam feiern und genießen" src="images/sommernacht.jpeg" flip="">}}
-*„A little party never killed nobody“* – unsere Events bieten die ideale Gelegenheit, Freundschaften zu vertiefen und gemeinsam eine schöne Zeit zu verbringen.
+{{<event-info title="Partys" src="images/neonparty.jpeg">}}
+„A little party never killed nobody“ – unsere Partys sind die ideale Gelegenheit, Freundschaften zu vertiefen und gemeinsam eine schöne Zeit zu verbringen. Das Haus Dreizehnlinden bietet die ideale Kulisse für kurzweilige Veranstaltungen. 
 {{</event-info>}}
 
-{{<event-info title="Stammtische" src="images/sommernacht.jpeg">}}
-Donnerstags treffen wir uns regelmäßig, tauschen uns aus und genießen eine angenehme Auszeit vom Studienalltag. Interessiert? Melde dich einfach bei info@kaiserpfalz-aachen.de und komm vorbei!
+{{<event-info title="Stammtische und mehr" src="images/sommernacht.jpeg" flip="">}}
+Donnerstags treffen wir uns regelmäßig, tauschen uns aus und genießen eine angenehme Auszeit vom Studienalltag. Auch abseits des offiziellen Programms unternehmen wir viel gemeinsam. 
+
+Interessiert? Melde dich einfach bei info@kaiserpfalz-aachen.de und komm vorbei!"
 {{</event-info>}}
-
-<div class="mb-8"></div>
-
-{{<section>}}
-### Planungshinweis
-
-Bei Interesse an einer Veranstaltung bitten wir um eine Anmeldung bis 48 Stunden vor Veranstaltungsbeginn.
-{{</section>}}

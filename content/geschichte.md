@@ -3,6 +3,8 @@ title: 'Geschichte der Kaiserpfalz'
 og_description: "Über ein Jahrhundert steig\n in einer dynamischen Welt"
 
 layout: timeline
+
+draft: true
 ---
 
 {{<history label="1920">}}
