@@ -15,11 +15,10 @@ Nachdem unser früheres Haus, die Villa Königshügel, dem Bau der Chemiegebäud
 Unser großer Saal bietet bequem Platz für bis zu 100 Personen und ist ideal für Partys, gemeinsame Abendessen oder andere Events mit Kommilitonen und Freunden. Während der Klausurphasen verwandelt sich der Saal in einen entspannten und ruhigen Lernort – hier muss niemand morgens früh Schlange stehen, um einen Platz in der Bibliothek zu ergattern.
 {{</imgsection>}}
 
-{{<imgsection src="images/esszimmer_alt.jpg">}}
-## Wohnen & Leben
+{{<imgsection src="images/thekenraum.jpg">}}
+## Treffpunkte & Entspannung
 
-Über der Gesellschaftsetage befinden sich unsere 2 Wohnetagen mit 12 Zimmern. Selbstverständlich stehen hier auch großzügige sanitäre Einrichtungen und eine große Gemeinschaftsküche zur Verfügung.
-So entsteht eine große WG, mit einem entsprechend vielseitigen WG-Leben, was durch die Aktiven ergänzt wird. Vom gemeinsamen Kochen bis zum gemeinsamen Sport und Feierabend-Bier ist eigentlich immer jemand bereit, wodurch viele nette Abende entstehen.
+Unser Thekenraum ist zentraler Bestandteil unseres Hauses und Treffpunkt für spontane Begegnungen. Besonders beliebt sind auch unsere zwei großzügigen Terrassen, ideal zum Lernen, Grillen oder einfach nur zum entspannten Beisammensein mit herrlichem Blick über Aachen.
 {{</imgsection>}}
 
 {{<imgsection src="images/clubraum.jpeg" flip="">}}
@@ -29,21 +28,24 @@ Direkt neben unserem Thekenraum liegt unser gemütlicher Clubraum, der perfekt g
 
 {{</imgsection>}}
 
-{{<imgsection src="images/thekenraum.jpg">}}
-## Wohnen & Gemeinschaft
+{{<imgsection src="images/esszimmer_alt.jpg">}}
+## Wohnen & Leben
 
-In den beiden oberen Etagen befinden sich 12 großzügige, helle Zimmer und eine großzügige Gemeinschaftsküche gibt, in der. Hier entsteht eine vielseitige und entspannte WG-Atmosphäre mit spontanen und schönen Abenden.
+Im Haus Dreizehnlinden stehen großzügige sanitäre Einrichtungen und eine große Gemeinschaftsküche zur Verfügung. So entsteht eine große WG, mit einem entsprechend vielseitigen WG-Leben, was durch die Aktiven und Freunde ergänzt wird. Vom gemeinsamen Kochen bis zum gemeinsamen Sport und Feierabend-Bier ist eigentlich immer jemand bereit, wodurch viele nette Abende entstehen.
 {{</imgsection>}}
 
-{{<imgsection src="images/thekenraum.jpg" flip="">}}
-## Treffpunkte & Entspannung
 
-Unser Thekenraum ist zentraler Bestandteil unseres Hauses und Treffpunkt für spontane Begegnungen. Besonders beliebt sind auch unsere zwei großzügigen Terrassen, ideal zum Lernen, Grillen oder einfach nur zum entspannten Beisammensein mit herrlichem Blick über Aachen.
+{{<imgsection src="images/zimmer.png">}}
+## Persönliche Zimmer
+
+In den beiden oberen Etagen befinden sich 12 großzügige, helle Zimmer, die an Studenten vermietet werden. Falls du Interesse an einem Zimmer haben solltest melde dich einfach unter wohnen@kaiserpfalz-aachen.de
 {{</imgsection>}}
 
-{{<imgsection>}}
+{{<twocolumns flip="">}}
+{{<location>}}
+--COLUMNBREAK--
 ## Optimale Lage in Aachen
 
 Das Haus Dreizehnlinden liegt zentral und doch ruhig in unmittelbarer Nähe zur Uni. Alle wichtigen Einrichtungen der RWTH – Hauptgebäude, Audimax, Kármán-Auditorium, Informatikzentrum und Campus Melaten – sind bequem zu Fuß oder mit dem Fahrrad in wenigen Minuten erreichbar. Der RWTH-Sportplatz, das Fitnessstudio sowie die nächste Mensa liegen nur fünf Minuten entfernt. Zentraler und zugleich ruhiger kann man in Aachen kaum wohnen.
 
-{{</imgsection>}}
+{{</twocolumns>}}
