@@ -28,5 +28,5 @@ Kaiserpfalz steht für Freundschaft, die weit über das Studium hinausreichen. B
 {{<event-info title="Stammtische und mehr" src="images/sommernacht.jpeg" flip="">}}
 Donnerstags treffen wir uns regelmäßig, tauschen uns aus und genießen eine angenehme Auszeit vom Studienalltag. Auch abseits des offiziellen Programms unternehmen wir viel gemeinsam. 
 
-Interessiert? Melde dich einfach bei info@kaiserpfalz-aachen.de und komm vorbei!"
+Interessiert? Melde dich einfach bei info@kaiserpfalz-aachen.de und komm vorbei!
 {{</event-info>}}
