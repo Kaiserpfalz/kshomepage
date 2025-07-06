@@ -12,7 +12,7 @@ Unser Semesterprogramm ist dein Zugang zu exklusiven Veranstaltungen, einmaligen
 
 {{</section>}}
 
-{{<event-info title="Reisen und Exkursion" src="images/haus.jpg">}}
+{{<event-info title="Reisen und Exkursion" src="images/453754624_18086177119481563_2233930179016887534_n.jpg">}}
 Im Rahmen unseres Semesterprogramms unternehmen wir regelmäßig Reisen. Über den Cartellverband der katholischen deutschen Studentenverbindungen (CV), unseren Dachverband, stehen uns deutschlandweit Übernachtungsmöglichkeiten und Kontakte zur Verfügung, die unsere Reisen besonders abwechslungsreich und spannend machen. Durch Exkursionen zu Unternehmen und Forschungseinrichtungen erweitern wir dabei kontinuierlich unseren Horizont.
 
 {{</event-info>}}

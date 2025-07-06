@@ -9,7 +9,7 @@
       {{ range .Site.Menus.nav }}
       {{ $active := eq page.CurrentSection.Title .Name }}
       {{ $active = or $active (eq .Name $current.Title) }}
-      <a href="{{ .URL }}" class="hover:text-gradient {{ if $active }}text-gradient hover:text-lime-400{{ end }}">
+      <a href="{{ .URL }}" class="hover:text-lime-400 {{ if $active }}text-lime-400{{ end }}">
         {{ .Name }}</a>
       {{ end }}
     </div>
@@ -23,7 +23,7 @@
           {{ range .Site.Menus.nav }}
           {{ $active := eq page.CurrentSection.Title .Name }}
           {{ $active = or $active (eq .Name $current.Title) }}
-          <a href="{{ .URL }}" class="hover:text-gradient {{ if $active }}text-gradient hover:text-lime-400{{ end }}">
+          <a href="{{ .URL }}" class="hover:text-lime-400 {{ if $active }}text-lime-400{{ end }}">
             {{ .Name }}</a>
           {{ end }}
         </div>

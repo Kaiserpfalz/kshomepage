@@ -35,13 +35,13 @@ Im Haus Dreizehnlinden stehen großzügige sanitäre Einrichtungen und eine gro�
 {{</imgsection>}}
 
 
-{{<imgsection src="images/zimmer.png">}}
+{{<imgsection src="images/zimmer.png" flip="">}}
 ## Persönliche Zimmer
 
 In den beiden oberen Etagen befinden sich 12 großzügige, helle Zimmer, die an Studenten vermietet werden. Falls du Interesse an einem Zimmer haben solltest melde dich einfach unter wohnen@kaiserpfalz-aachen.de
 {{</imgsection>}}
 
-{{<twocolumns flip="">}}
+{{<twocolumns>}}
 {{<location>}}
 --COLUMNBREAK--
 ## Optimale Lage in Aachen

@@ -25,15 +25,15 @@
         "title":"Tradition",
         "text":"Werde Teil unserer über hundertjährigen Erfolgsgeschichte",
         "image":"images/100_commers.jpeg",
-        "link":"Mehr erfahren",
-        "href":"geschichte"
+        "link":"Sei dabei",
+        "href":"semesterprogramm"
     },
     {
         "title":"Gemeinschaft",
         "text":"Erfahre mehr über das Band das uns Verbindet",
         "image":"images/100_church.jpeg",
         "link":"Über uns",
-        "href":"semesterprogramm"
+        "href":"about"
     },
     {
         "title":"Feste",
