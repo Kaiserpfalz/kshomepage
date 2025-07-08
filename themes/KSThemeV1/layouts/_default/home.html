@@ -104,7 +104,7 @@
         Um das Verbindungswesen ranken sich viele Steriotype und Vorannahmen, die häufigsten davon wollen wir hier einmal kurz beleuchten.
       </p>
       {{range .Site.Data.faq}}
-      <details class="border-2 border-zinc-500 mb-2" name="faq" {{if isset . "open"}}open{{end}}>
+      <details class="border-2 bg-white border-zinc-500 mb-2" name="faq" {{if isset . "open"}}open{{end}}>
         <summary class="px-2 py-1 cursor-pointer font-semibold">
           {{.question}}
         </summary>
