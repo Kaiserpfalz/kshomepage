@@ -1,5 +1,5 @@
 ---
-title: 'Ga­le­rie'
+title: 'Galerie'
 og_description: "Einige Impressionen unserer Gemeinschaft"
 layout: gallery
 ---
