@@ -1,3 +1,3 @@
 ## Gemeinschaft
 
-Über die Generationen hinweg leben wir das was man unter lebenslanger Freundschaft verstehen kann und
+Über die Generationen hinweg leben wir das was man zurecht unter lebenslanger Freundschaft verstehen kann
