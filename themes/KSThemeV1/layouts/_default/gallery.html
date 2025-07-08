@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="mt-16 container mx-auto">
+    <section class="prose mb-8">
+        {{.Content}}
+    </section>
+    <section>
+        {{ range .Pages }}
+        <div class="mb-8 shadow bg-white p-4 -mx-4">
+            <div class="prose prose-sm mb-2">
+                {{.Content}}
+            </div>
+            <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3">
+                {{$dir := index ((split .Path "/") | last 2) 0}}
+                {{$glob := printf "*/%s/*" $dir}}
+                {{range $.Resources.Match $glob  }}
+                <div class="aspect-video">
+                    <img src="{{ .RelPermalink }}" class="w-full h-full object-cover rounded">
+                </div>
+                {{end}}
+            </div>
+        </div>
+        {{ end }}
+    </section>
+
+</div>
+{{ end }}
