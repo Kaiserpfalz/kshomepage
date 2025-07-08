@@ -1,0 +1,130 @@
+<div class="fixed bottom-0 p-4 w-full shadow-xl z-100" id="cookie_root">
+    <div class="w-full p-4 bg-white shadow-xl rounded-lg container mx-auto z-100 hidden items-center gap-2 relative"
+        id="cookie_dialoge">
+        <button class="absolute top-0 right-0 p-2 cursor-pointer hover:text-purple-500" id="cookie_btn_close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                    d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
+            </svg>
+        </button>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12q0-1.875.725-3.675T4.75 5.112t3.125-2.275t4-.862q.525 0 1.075.05t1.125.175q-.225 1.125.15 2.125t1.125 1.662t1.788.913t2.137-.125q-.65 1.475.188 2.825T21.95 11q.025.275.038.512t.012.513q0 2.05-.788 3.862t-2.137 3.175t-3.175 2.15T12 22m-1.5-12q.625 0 1.063-.437T12 8.5t-.437-1.062T10.5 7t-1.062.438T9 8.5t.438 1.063T10.5 10m-2 5q.625 0 1.063-.437T10 13.5t-.437-1.062T8.5 12t-1.062.438T7 13.5t.438 1.063T8.5 15m6.5 1q.425 0 .713-.288T16 15t-.288-.712T15 14t-.712.288T14 15t.288.713T15 16" />
+        </svg>
+        <span>Diese Webseite nutzt cookies</span>
+
+        <button class="ml-4 underline cursor-pointer hover:text-purple-500" id="cookie_btn_all">Alle zulassen</button>
+        <button class="underline cursor-pointer hover:text-purple-500" id="cookie_btn_required">Nur technisch
+            notwendige</button>
+    </div>
+    <noscript>
+        <details open class="relative">
+            <summary class="list-none absolute inset-0 z-20 cursor-pointer">
+
+            </summary>
+            <div class="">
+                <div class="w-full p-4 bg-white shadow-xl rounded-lg container mx-auto z-100 flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512" class="text-rose-600">
+                        <path fill="currentColor"
+                            d="m279.376 121.305l40.477 13.492l-85.333 256l-40.478-13.492zm99.999 45.01l89.752 89.752l-89.752 89.751l-30.17-30.17l59.565-59.581l-59.565-59.582zm-246.87-.014l30.169 30.17l-59.573 59.572l59.573 59.591l-30.169 30.17l-89.752-89.752z" />
+                    </svg>
+                    <p>Diese Webseite benötigt Javascript für optionale Features und verwendet Cookies.</p>
+                </div>
+            </div>
+        </details>
+    </noscript>
+</div>
+
+<script>
+    // --- Cookie management ---
+    //https://stackoverflow.com/questions/14573223/set-cookie-and-get-cookie-with-javascript
+    function setCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "") + expires + "; path=/";
+    }
+    function getCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    }
+
+    // --- event management system ---
+    let _CONSENT_CALLBACKS = {
+        'minimal':[],
+        'full':[]
+    }
+    function ON_COOKIE_CONSENT(level,callback){
+        const currentState = getCookie('cookie_consent_state')
+
+        console.log(`level: ${currentState}, requested ${level}`);
+        
+        
+        // minimal requirements
+        if(level == 'minimal'){
+            if(currentState){
+                callback();
+            }else{
+                _CONSENT_CALLBACKS.minimal.push(callback)
+            }
+        }
+        // full optional
+        if(level == 'full'){
+            if(currentState == 'full'){
+                callback();
+            }else{
+                _CONSENT_CALLBACKS.full.push(callback)
+            }
+        }
+    }
+
+    // --- Button behaviour ---
+
+    // close without choice
+    document.getElementById('cookie_btn_close').addEventListener('click', () => {
+        document.getElementById('cookie_root').remove()
+    })
+
+    // accept required only
+    function COOKIE_CONSENT_ACCEPT_REQUIRED(){
+        document.getElementById('cookie_root').remove()
+        setCookie('cookie_consent_state', 'minimal', 1)
+        // call queued events
+        _CONSENT_CALLBACKS.minimal.map((cb)=>{cb()})
+    }
+    document.getElementById('cookie_btn_required').addEventListener('click', COOKIE_CONSENT_ACCEPT_REQUIRED)
+
+    // accept optional
+    function COOKIE_CONSENT_ACCEPT_ALL(){
+        document.getElementById('cookie_root').remove()
+        setCookie('cookie_consent_state', 'full', 100)
+        // call queued events
+        _CONSENT_CALLBACKS.minimal.map((cb)=>{cb()})
+        _CONSENT_CALLBACKS.full.map((cb)=>{cb()})
+    }
+    document.getElementById('cookie_btn_all').addEventListener('click', COOKIE_CONSENT_ACCEPT_ALL)
+
+    // --- OnLoad Behaviour ---
+    window.addEventListener('load', () => {
+        // If the user has indicated a preference do not show popup
+        const currentState = getCookie('cookie_consent_state')
+        if (currentState) {
+            document.getElementById('cookie_root').remove()
+        } else {
+            document.getElementById('cookie_dialoge').classList.remove('hidden')
+            document.getElementById('cookie_dialoge').classList.add('flex')
+        }
+    })
+</script>
