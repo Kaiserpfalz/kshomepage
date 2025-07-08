@@ -28,7 +28,7 @@ Direkt neben unserem Thekenraum liegt unser gemütlicher Clubraum, der perfekt g
 
 {{</imgsection>}}
 
-{{<imgsection src="images/esszimmer_alt.jpg">}}
+{{<imgsection src="images/kueche.jpg">}}
 ## Wohnen & Leben
 
 Im Haus Dreizehnlinden stehen großzügige sanitäre Einrichtungen und eine große Gemeinschaftsküche zur Verfügung. So entsteht eine große WG, mit einem entsprechend vielseitigen WG-Leben, was durch die Aktiven und Freunde ergänzt wird. Vom gemeinsamen Kochen bis zum gemeinsamen Sport und Feierabend-Bier ist eigentlich immer jemand bereit, wodurch viele nette Abende entstehen.
