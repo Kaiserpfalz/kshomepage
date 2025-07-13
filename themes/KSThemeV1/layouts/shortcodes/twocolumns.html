@@ -13,12 +13,10 @@
 
 <div class="lg:flex gap-4 lg:gap-8 mb-24 min-h-[400px] {{if not $flip}}flex-row-reverse{{end}}">
   <div class="flex-1 shadow-lg rounded-lg bg-white">
-
       {{ index $children 0 | .Page.RenderString }}
-
   </div>
   <div class="flex-1 shadow-lg rounded-lg bg-white">
-    <div class="prose-sm xl:prose-lg p-8 lg:p-16 sm:prose-base">
+    <div class="prose-sm xl:prose-lg p-8 lg:p-16 sm:prose-base prose-a:underline">
       {{ index $children 1 | .Page.RenderString }}
     </div>
   </div>

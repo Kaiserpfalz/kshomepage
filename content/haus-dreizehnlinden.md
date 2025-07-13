@@ -48,6 +48,6 @@ In den beiden oberen Etagen befinden sich 12 großzügige, helle Zimmer, die an 
 
 Das Haus Dreizehnlinden liegt zentral und doch ruhig in unmittelbarer Nähe zur Uni. Alle wichtigen Einrichtungen der RWTH – Hauptgebäude, Audimax, Kármán-Auditorium, Informatikzentrum und Campus Melaten – sind bequem zu Fuß oder mit dem Fahrrad in wenigen Minuten erreichbar. Der RWTH-Sportplatz, das Fitnessstudio sowie die nächste Mensa liegen nur fünf Minuten entfernt. Zentraler und zugleich ruhiger kann man in Aachen kaum wohnen.
 
-(Interesse an einem Zimmer "auf dem Haus"?)[https://www.wg-gesucht.de/2793985.html]
+[Interesse an einem Zimmer "auf dem Haus"?](https://www.wg-gesucht.de/2793985.html)
 
 {{</twocolumns>}}
