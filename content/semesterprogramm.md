@@ -12,21 +12,25 @@ Unser Semesterprogramm ist dein Zugang zu exklusiven Veranstaltungen, einmaligen
 
 {{</section>}}
 
-{{<event-info title="Reisen und Exkursion" src="images/453754624_18086177119481563_2233930179016887534_n.jpg">}}
+{{<imgsection src="images/453754624_18086177119481563_2233930179016887534_n.jpg">}}
+## Reisen und Exkursion
 Im Rahmen unseres Semesterprogramms unternehmen wir regelmäßig Reisen. Über den Cartellverband der katholischen deutschen Studentenverbindungen (CV), unseren Dachverband, stehen uns deutschlandweit Übernachtungsmöglichkeiten und Kontakte zur Verfügung, die unsere Reisen besonders abwechslungsreich und spannend machen. Durch Exkursionen zu Unternehmen und Forschungseinrichtungen erweitern wir dabei kontinuierlich unseren Horizont.
 
-{{</event-info>}}
+{{</imgsection>}}
 
-{{<event-info title="Studentische Feste und Traditionen" src="images/kneipe.jpg" flip="">}}
+{{<imgsection src="images/kneipe.jpg" flip="">}}
+## Studentische Feste und Traditionen
 Kaiserpfalz steht für Freundschaft, die weit über das Studium hinausreichen. Beim Stiftungs- und Nikolausfest feiern wir unsere Gemeinschaft – gemeinsam mit aktuellen und ehemaligen Studierenden. Darüber hinaus bereichern zahlreiche Veranstaltungen das Semesterprogramm, die seit über hundert Jahren typisch für das studentische Leben sind. 
-{{</event-info>}}
+{{</imgsection>}}
 
-{{<event-info title="Partys" src="images/neonparty.jpeg">}}
+{{<imgsection src="images/neonparty.jpeg">}}
+## Partys
 „A little party never killed nobody“ – unsere Partys sind die ideale Gelegenheit, Freundschaften zu vertiefen und gemeinsam eine schöne Zeit zu verbringen. Das Haus Dreizehnlinden bietet die ideale Kulisse für kurzweilige Veranstaltungen. 
-{{</event-info>}}
+{{</imgsection>}}
 
-{{<event-info title="Stammtische und mehr" src="images/sommernacht.jpeg" flip="">}}
+{{<imgsection src="images/sommernacht.jpeg" flip="">}}
+## Stammtische und mehr
 Donnerstags treffen wir uns regelmäßig, tauschen uns aus und genießen eine angenehme Auszeit vom Studienalltag. Auch abseits des offiziellen Programms unternehmen wir viel gemeinsam. 
 
 Interessiert? Melde dich einfach bei info@kaiserpfalz-aachen.de und komm vorbei!
-{{</event-info>}}
+{{</imgsection>}}
