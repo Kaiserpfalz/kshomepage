@@ -2,6 +2,16 @@
 title: 'Impressum'
 og_description: "Gesetzlich verpflichtende Angaben"
 ---
+{{<section>}}
+# Impressum
+K.D.St.V. Kaiserpfalz
+Hexenberg 10
+52074 Aachen
 
-Das Haus Dreizehnlinden liegt zentral und doch ruhig in unmittelbarer Nähe zur Uni. Alle wichtigen Einrichtungen der RWTH – Hauptgebäude, Audimax, Kármán-Auditorium, Informatikzentrum und Campus Melaten – sind bequem zu Fuß oder mit dem Fahrrad in wenigen Minuten erreichbar. Der RWTH-Sportplatz, das Fitnessstudio sowie die nächste Mensa liegen nur fünf Minuten entfernt. Zentraler und zugleich ruhiger kann man in Aachen kaum wohnen.
-Das Haus Dreizehnlinden liegt zentral und doch ruhig in unmittelbarer Nähe zur Uni. Alle wichtigen Einrichtungen der RWTH – Hauptgebäude, Audimax, Kármán-Auditorium, Informatikzentrum und Campus Melaten – sind bequem zu Fuß oder mit dem Fahrrad in wenigen Minuten erreichbar. Der RWTH-Sportplatz, das Fitnessstudio sowie die nächste Mensa liegen nur fünf Minuten entfernt. Zentraler und zugleich ruhiger kann man in Aachen kaum wohnen.
+## Vertreten durch
+Den Senior der Aktivitas info@aiserpfalz-aachen.de
+
+## Verbraucherstreitbeilegung/Universalschlichtungsstelle
+Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
+Verbraucherschlichtungsstelle teilzunehmen.
+{{</section>}}
