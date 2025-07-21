@@ -92,15 +92,18 @@
     }
 
     // --- Button behaviour ---
+    function COOKIE_CONSENT_CLOSE(){
+        try{
+            document.getElementById('cookie_root').remove()
+        }catch(e){}
+    }
 
     // close without choice
-    document.getElementById('cookie_btn_close').addEventListener('click', () => {
-        document.getElementById('cookie_root').remove()
-    })
+    document.getElementById('cookie_btn_close').addEventListener('click', COOKIE_CONSENT_CLOSE)
 
     // accept required only
     function COOKIE_CONSENT_ACCEPT_REQUIRED(){
-        document.getElementById('cookie_root').remove()
+        COOKIE_CONSENT_CLOSE()
         setCookie('cookie_consent_state', 'minimal', 1)
         // call queued events
         _CONSENT_CALLBACKS.minimal.map((cb)=>{cb()})
@@ -109,7 +112,7 @@
 
     // accept optional
     function COOKIE_CONSENT_ACCEPT_ALL(){
-        document.getElementById('cookie_root').remove()
+        COOKIE_CONSENT_CLOSE()
         setCookie('cookie_consent_state', 'full', 100)
         // call queued events
         _CONSENT_CALLBACKS.minimal.map((cb)=>{cb()})
