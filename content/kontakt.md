@@ -14,7 +14,7 @@ Der Vorstand der Kaiserpfalz hat für jedes Anliegen ein offenes Ohr, schreib un
 {{<card src="kontakt/people/senior.jpg" button="x@kaiserpfalz-aachen.de" to="mailto:x@kaiserpfalz-aachen.de">}}
 ## Senior
 
-Als Senior ist meine Hauptaufgabe die Außen- und Innenrepräsentation der Kaiserpfalz. Außerdem leite ich das Chargenteam und habe immer für jedes Anliegen ein offenes Ohr.
+Als Senior ist meine Hauptaufgabe die Außen- und Innenrepräsentation der Kaiserpfalz. Außerdem leite ich das Chargenteam und habe für jedes Anliegen ein offenes Ohr.
 <br>– Felix Stehle
 {{</card>}}
 
