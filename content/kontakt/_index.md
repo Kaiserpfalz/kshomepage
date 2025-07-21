@@ -35,7 +35,7 @@ Hi, ich kümmere mich als Fuxmajor darum, dass unsere neuen Mitglieder einen gut
 {{<card src="kontakt/people/scriptor.jpg" button="xxx@kaiserpfalz-aachen.de" to="mailto:xxx@kaiserpfalz-aachen.de">}}
 ## Scriptor
 
-Servus, Als Scriptor ist es meine Aufgabe mich um die Schriftführung inner- und außerhalb der Kaiserpfalz zu kümmern. Ich schreiben zudem die Geburtstagsglückwünsche an Mitglieder und unterstütze gerne mein Chargenteam in allen Belangen
+Servus, Als Scriptor ist es meine Aufgabe mich um die Schriftführung inner- und außerhalb der Kaiserpfalz zu kümmern. Ich schreibe zudem die Geburtstagsglückwünsche an Mitglieder und unterstütze gerne mein Chargenteam in allen Belangen
 <br>– Samuel Steinmetz
 {{</card>}}
 
