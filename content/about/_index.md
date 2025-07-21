@@ -41,7 +41,9 @@ Freundschaften fürs Leben, geprägt von gegenseitiger Unterstützung und Austau
 {{<card src="about/prinzipien/patria.jpg" stacked="true">}}
 ## Patria
 
-Eintreten für einen demokratischen und sozialen Rechtsstaat – politisch neutral.
+Einstehen für die Freiheitlich- demokratsche Grundordnung
+unseres Staates und Bekenntnis zu unseren kulturellen
+Wurzeln in einem zusammenwachsenden Europa
 {{</card>}}
 
 {{<card src="about/prinzipien/religio.jpg" stacked="true">}}
