@@ -26,25 +26,25 @@ Unsere Gemeinschaft stützt sich auf die 4 Prinzipien des Cartellverbands (CV). 
 {{</section>}}
 
 {{<grid max="4">}}
-{{<card src="images/449598196_18083162701481563_7710044300787259717_n.jpg" stacked="true">}}
+{{<card src="about/prinzipien/sciencia.jpg" stacked="true">}}
 ## Sciencia
 
 Akademischer Erfolg, interdisziplinärer Austausch und lebenslanges Lernen.
 {{</card>}}
 
-{{<card src="images/448310523_1009786114000203_6832675859068944666_n.jpg" stacked="true">}}
+{{<card src="about/prinzipien/amicitia.jpg" stacked="true">}}
 ## Amicitia
 
 Freundschaften fürs Leben, geprägt von gegenseitiger Unterstützung und Austausch zwischen den Generationen
 {{</card>}}
 
-{{<card src="images/100_church.jpeg" stacked="true">}}
+{{<card src="about/prinzipien/patria.jpg" stacked="true">}}
 ## Patria
 
 Eintreten für einen demokratischen und sozialen Rechtsstaat – politisch neutral.
 {{</card>}}
 
-{{<card src="images/308726607_671380594667164_937228008470427221_n.jpg" stacked="true">}}
+{{<card src="about/prinzipien/religio.jpg" stacked="true">}}
 ## Religio
 
 Orientierung an christlichen Werten und dem katholischen Glauben.
