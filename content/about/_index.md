@@ -27,7 +27,7 @@ Unsere Gemeinschaft stützt sich auf die 4 Prinzipien des Cartellverbands (CV). 
 
 {{<grid max="4">}}
 {{<card src="about/prinzipien/scientia.jpg" stacked="true">}}
-## scientia
+## Scientia
 
 Akademischer Erfolg, interdisziplinärer Austausch und lebenslanges Lernen.
 {{</card>}}
