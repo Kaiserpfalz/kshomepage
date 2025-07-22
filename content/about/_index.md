@@ -14,9 +14,9 @@ Wir, die Kaiserpfalz, sind eine katholische, farbentragende und nichtschlagende 
 {{<imgsection src="images/448483484_1521703162109952_2083340079941222846_n.jpg" flip="">}}
 ## Lerne uns kennen
 
-Zentrale Anlaufstelle unseres Gesellschaftlichen Miteinander ist unser Haus Dreizehnlinden. Unser Verbindungshaus bietet neben der Gesellschaftsetage auch 12 Zimmer für Studenten. Hier können unsere Mitglieder und solche die es noch werden wollen kostengünstig in zentraler Nähe der RWTH Aachen auf der Hörn wohnen. Die Gesellschaftsetage besteht aus einem Veranstaltungssaal, Thekenraum, Clubraum sowie zwei großen Terrassen. Eine große Industrieküche ermöglicht es uns immer wieder, uns an jegliche kulinarische Herausforderungen heranzuwagen. Wenn du Interesse hast eines unserer Zimmer zu bewohnen, freuen wir uns über deine E-Mail oder Anruf.
+Zentrale Anlaufstelle unseres Gesellschaftlichen Miteinander ist unser Haus Dreizehnlinden. Unser Verbindungshaus bietet neben der Gesellschaftsetage auch 12 Zimmer für Studenten. Hier können unsere Mitglieder und solche die es noch werden wollen kostengünstig in zentraler Nähe der RWTH Aachen auf der Hörn wohnen. Die Gesellschaftsetage besteht aus einem Veranstaltungssaal, Thekenraum, Clubraum sowie zwei großen Terrassen. Eine große Industrieküche ermöglicht es uns immer wieder, uns an jegliche kulinarische Herausforderungen heranzuwagen. Wenn du Interesse hast, eines unserer Zimmer zu bewohnen, freuen wir uns über deine E-Mail oder Anruf.
 
-Wir sind Mitglied im Cartellverband (CV), dem größten katholischen Akadmikerverband Europas mit rund 30.000 Mitgliedern und ca. 125 Studentenverbindungen.
+Wir sind Mitglied im Cartellverband (CV), dem größten katholischen Akademikerverband Europas mit rund 30.000 Mitgliedern und ca. 125 Studentenverbindungen.
 {{</imgsection>}}
 
 {{<section>}}

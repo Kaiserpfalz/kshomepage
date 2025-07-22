@@ -47,7 +47,7 @@ In den beiden oberen Etagen befinden sich 12 großräumige, helle Zimmer, die an
 ## Optimale Lage in Aachen
 
 Das Haus Dreizehnlinden liegt zentral und doch ruhig in unmittelbarer Nähe zur Uni. Alle wichtigen Einrichtungen der RWTH – Hauptgebäude, Audimax, Kármán-Auditorium, Informatikzentrum und Campus Melaten – sind bequem zu Fuß oder mit dem Fahrrad in wenigen Minuten erreichbar. Der RWTH-Sportplatz, das Fitnessstudio sowie die nächste Mensa liegen nur fünf Minuten entfernt. Zentraler und zugleich ruhiger kann man in Aachen kaum wohnen. Direkt vor der Haustür befindet
-sich die Haltestelle "Am Weißenberg" welche uns bequem mit dem Elisenbrunnen, Bushof und dem Kampus Melaten verbindet.
+sich die Haltestelle "Am Weißenberg" welche uns bequem mit dem Elisenbrunnen, Bushof und dem Campus Melaten verbindet.
 
 [Interesse an einem Zimmer "auf dem Haus"?](https://www.wg-gesucht.de/2793985.html)
 
