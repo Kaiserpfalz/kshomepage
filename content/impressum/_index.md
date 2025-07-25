@@ -9,7 +9,7 @@ Hexenberg 10
 52074 Aachen
 
 ## Vertreten durch
-Den Senior der Aktivitas info@aiserpfalz-aachen.de
+Den Senior der Aktivitas info@kaiserpfalz-aachen.de
 
 ## Verbraucherstreitbeilegung/Universalschlichtungsstelle
 Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
