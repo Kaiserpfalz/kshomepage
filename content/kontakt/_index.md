@@ -56,6 +56,6 @@ Kassen und Finanzen sind mein Aufgabengebiet. Ich kann dir bei allem helfen, was
 | **Altherrensenior**                  | Dr. med. Michael Ewers                     | ah-x@kaiserpfalz-aachen.de    |
 | **Altherrenconsenior**               | Michael Sobotta, M.Sc                      | ah-xx@kaiserpfalz-aachen.de   |
 | **Altherrenschriftführer** / **GVB** | Dipl.-Ing., Dipl.-Wi.Ing Dietrich Ronstedt | ah-xxx@kaiserpfalz-aachen.de  |
-| **Altherrrenkassierer**              | Dr.-Ing. Hubert Höwener                    | ah-xxxx@kaiserpfalz-aachen.de |
+| **Altherrenkassierer**              | Dr.-Ing. Hubert Höwener                    | ah-xxxx@kaiserpfalz-aachen.de |
 
 {{</section>}}
