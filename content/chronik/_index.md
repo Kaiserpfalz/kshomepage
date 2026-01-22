@@ -4,50 +4,26 @@ og_description: "Geschichte der Kaiserpfalz"
 layout: timeline
 ---
 {{<history label="label">}}
+{{<prose>}}
 test
+
+![](images/villakoenigshuegel.png)
+{{</prose>}}
 {{</history>}}
+
+
 {{<history label="label2">}}
-test
-{{</history>}}
-{{<history label="label3">}}
-test
-{{</history>}}
-{{<history label="label4">}}
-test
-{{</history>}}
-{{<history label="label5">}}
-test
-{{</history>}}
-{{<history label="label6">}}
-test
-{{</history>}}
-{{<history label="label7">}}
-test
-{{</history>}}
-{{<history label="label8">}}
-test
-{{</history>}}
+{{<grid max="2">}}
+{{<prose>}}
+## Lorem ipsum.
+Numquam placeat eveniet ducimus aut voluptas. Aut dolorum sit magni quibusdam in at. Asperiores perferendis rem est vero sint. Placeat eum sit est doloribus asperiores.
 
-{{<history label="label9">}}
-test
-{{</history>}}
+Ea veniam consequatur cumque sequi voluptates. Illum consectetur nisi enim quod. Maiores cumque et aut. Aut nobis quia earum nisi quasi rerum laboriosam. Eius aut cumque quasi ut pariatur sapiente vero. Asperiores autem consequatur quidem exercitationem rerum eaque.
+{{</prose>}}
 
-{{<history label="label10">}}
-test
-{{</history>}}
+{{<prose>}}
+![](images/villakoenigshuegel.png)
+{{</prose>}}
+{{</grid>}}
 
-{{<history label="label11">}}
-test
-{{</history>}}
-
-{{<history label="label12">}}
-test
-{{</history>}}
-
-{{<history label="label13">}}
-test
-{{</history>}}
-
-{{<history label="label14">}}
-test
 {{</history>}}
