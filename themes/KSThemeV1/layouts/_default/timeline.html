@@ -1,25 +1,25 @@
 {{ define "main" }}
 
 {{$content := .Content}}
-<div class="mt-16 flex gap-8">
-    <aside class="fixed top-0 bottom-0 py-32 pb-46 hidden lg:block">
+<div class="flex gap-8 mt-16">
+    <aside class="hidden lg:block top-0 bottom-0 fixed py-32 pb-46">
         <div class="relative flex flex-col gap-6 pt-2 h-full">
           {{ $labels := .Store.GetSortedMapValues "elements" }}
           {{range $labels}}
-          <a href="#{{.}}" class="flex gap-2 items-center group cursor-pointer">
-            <div class="h-4 w-4 border-[1px] bg-white border-zinc-400 rounded-sm"></div>
-            <span class="font-semibold group-hover:text-lime-500 text-zinc-700">{{.}}</span>
+          <a href="#{{.}}" class="group flex items-center gap-2 cursor-pointer">
+            <div class="bg-white border-[1px] border-zinc-400 rounded-sm w-4 h-4"></div>
+            <span class="font-semibold text-zinc-700 group-hover:text-lime-500">{{.}}</span>
           </a>
           {{end}}
       
-          <div class="absolute inset-0 -z-10">
-              <div class="ml-[7px] w-[1px] h-full bg-zinc-400"></div>
-            <div class="absolute top-0 w-4 h-[1px] bg-zinc-400"></div>
-            <div class="absolute bottom-0 w-4 h-[1px] bg-zinc-400"></div>
+          <div class="-z-10 absolute inset-0">
+              <div class="bg-zinc-400 ml-[7px] w-[1px] h-full"></div>
+            <div class="top-0 absolute bg-zinc-400 w-4 h-[1px]"></div>
+            <div class="bottom-0 absolute bg-zinc-400 w-4 h-[1px]"></div>
           </div>
         </div>
     </aside>
-  <div class="flex-1 lg:ml-32 mx-4">
+  <div class="flex-1 mx-4 lg:ml-32">
     {{$content}}
   </div>
 </div>
