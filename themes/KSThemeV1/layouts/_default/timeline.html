@@ -2,9 +2,9 @@
 
 {{$content := .Content}}
 <div class="flex gap-8">
-  <aside class="top-24 sticky self-start max-w-max">
-    <details class="group self-start open:border" open>
-      <summary class="mb-2 px-2 py-1 not-group-open:border group-open:border-b w-full cursor-pointer list-none">
+  <aside class="hidden lg:block top-26 sticky self-start max-w-max">
+    <details class="group self-start open:border rounded-lg" open>
+      <summary class="mb-2 px-2 py-1 not-group-open:border group-open:border-b not-group-open:rounded-lg w-full cursor-pointer list-none">
         <span class="group-open:hidden">Show labels</span>
         <span class="hidden group-open:inline">Hide Labels</span>
       </summary>
@@ -13,7 +13,7 @@
         {{range $labels}}
         <a href="#{{.}}" class="group flex items-center gap-2 mb-4 cursor-pointer">
           <div class="bg-white border border-zinc-400 rounded-sm w-4 h-4 aspect-square"></div>
-          <span class="font-semibold text-zinc-700 hover:text-lime-500">{{.}}</span>
+          <span class="font-semibold text-zinc-700 hover:text-purple-600">{{.}}</span>
         </a>
         {{end}}
       </div>
@@ -22,7 +22,7 @@
   </aside>
   <main class="flex-1">
     {{$content}}
-    <div class="bg-amber-300 h-[1000px]"></div>
   </main>
 </div>
+{{ $.Page.Store.Set "__noretaxonomize" true }}
 {{ end }}
