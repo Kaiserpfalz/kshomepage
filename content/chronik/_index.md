@@ -3,27 +3,60 @@ title: 'Chronik'
 og_description: "Geschichte der Kaiserpfalz"
 layout: timeline
 ---
-{{<history label="label">}}
-{{<prose>}}
-test
+{{<history label="Universitäten und das Studentenleben">}}
+Zwischen den Jahren 950 bis 1100 gründen sich in Europa die ersten Universitäten. Erste Formen des Studentenlebens an den Universitäten bilden sich. 
+In den Studentenstädten gründen sich erste Bursen, Studentische Gemeinschaften, welche die Vorgänger heutiger Studentenverbidnungen und Studentenwohnheimen bilden.
+In diesen wurden den "Scholaren" (Gleichbedeutent mit Student) durch Magister Nachhilfe in Elementarfächern wie Mathematik oder Latein gegeben, sofern nötig.
+{{</history>}}
 
-![](images/villakoenigshuegel.png)
-{{</prose>}}
+{{<history label="label9">}}
+test
 {{</history>}}
 
 
-{{<history label="label2">}}
-{{<grid max="2">}}
-{{<prose>}}
-## Lorem ipsum.
-Numquam placeat eveniet ducimus aut voluptas. Aut dolorum sit magni quibusdam in at. Asperiores perferendis rem est vero sint. Placeat eum sit est doloribus asperiores.
+{{<history label="Gründung der Franconia">}}
+test
+{{</history>}}
 
-Ea veniam consequatur cumque sequi voluptates. Illum consectetur nisi enim quod. Maiores cumque et aut. Aut nobis quia earum nisi quasi rerum laboriosam. Eius aut cumque quasi ut pariatur sapiente vero. Asperiores autem consequatur quidem exercitationem rerum eaque.
-{{</prose>}}
+{{<history label="Abspaltung und Gründung der Kaiserpfalz">}}
+test
+{{</history>}}
+{{<history label="Krieg und Wiederbegründung">}}
+test
+{{</history>}}
 
-{{<prose>}}
-![](images/villakoenigshuegel.png)
-{{</prose>}}
-{{</grid>}}
+{{<history label="Das Haus Dreizehnlinden">}}
+test
+{{</history>}}
 
+{{<history label="Die neue Kaiserpfalz">}}
+test
+{{</history>}}
+
+{{<history label="Die Jahre 1995 bis 2020">}}
+test
+{{</history>}}
+
+{{<history label="100 Jahre Kaiserpfalz">}}
+test
+{{</history>}}
+
+{{<history label="label10">}}
+test
+{{</history>}}
+
+{{<history label="label11">}}
+test
+{{</history>}}
+
+{{<history label="label12">}}
+test
+{{</history>}}
+
+{{<history label="label13">}}
+test
+{{</history>}}
+
+{{<history label="label14">}}
+test
 {{</history>}}
