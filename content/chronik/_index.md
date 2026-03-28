@@ -2,6 +2,7 @@
 title: 'Chronik'
 og_description: "Geschichte der Kaiserpfalz"
 layout: timeline
+draft: true
 ---
 {{<history label="Universitäten und das Studentenleben">}}
 Zwischen den Jahren 950 bis 1100 gründen sich in Europa die ersten Universitäten. Erste Formen des Studentenlebens an den Universitäten bilden sich. 
