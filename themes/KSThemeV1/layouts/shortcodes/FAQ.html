@@ -1,0 +1,8 @@
+<details class="bg-white mb-2 border-2 border-zinc-500 prose" name="faq" {{if isset .Params "open" }}open{{end}}>
+  <summary class="px-2 py-1 font-semibold cursor-pointer">
+    {{.Params.question}}
+  </summary>
+  <div class="p-2">
+    {{.Inner | .Page.RenderString}}
+  </div>
+</details>

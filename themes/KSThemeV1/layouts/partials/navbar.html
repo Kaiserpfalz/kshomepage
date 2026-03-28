@@ -1,12 +1,12 @@
 {{ partialCached "consent.html" . }}
 
-<nav class="bg-white shadow-lg p-4 md:p-6 font-[Montserrat] text-lg sticky top-0 z-40 text-neutral-700">
-  <div class="container mx-auto md:px-4 lg:flex items-center gap-4">
-    <a href="{{relURL ""}}" class="flex items-center gap-2 group max-w-max">
-      <img src="{{relURL "images/KSApp.webp"}}" class="max-h-[40px]" alt="">
-      <span class="text-xl group-hover:text-gradient font-semibold">{{with .Site}}{{.Title}}{{end}}</span>
+<nav class="top-0 z-40 sticky bg-white shadow-lg p-4 md:p-6 font-[Montserrat] text-neutral-700 text-lg">
+  <div class="lg:flex items-center gap-4 mx-auto md:px-4 container">
+    <a href="{{relURL ""}}" class="group flex items-center gap-2 max-w-max">
+      <img src="{{relURL "images/KSApp.webp"}}" class="max-h-10" alt="">
+      <span class="font-semibold group-hover:text-gradient text-xl">{{with .Site}}{{.Title}}{{end}}</span>
     </a>
-    <div class="hidden gap-4 items-center ml-auto lg:flex">
+    <div class="hidden lg:flex items-center gap-4 ml-auto">
       {{ $current := . }}
       {{ range .Site.Menus.nav }}
       {{ $active := eq page.CurrentSection.Title .Name }}
@@ -15,12 +15,12 @@
         {{ .Name }}</a>
       {{ end }}
     </div>
-    <div class="mx-auto lg:hidden">
+    <div class="lg:hidden mx-auto">
       <details>
-        <summary class="list-none cursor-pointer hover:text-lime-500 absolute top-6 md:top-8 right-4">
+        <summary class="top-6 md:top-8 right-4 absolute hover:text-lime-500 cursor-pointer list-none">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M3 18v-2h18v2zm0-5v-2h18v2zm0-5V6h18v2z"/></svg>
         </summary>
-        <div class="gap-4 items-center ml-auto flex flex-col mt-4">
+        <div class="flex flex-col items-center gap-4 mt-4 ml-auto">
           {{ $current := . }}
           {{ range .Site.Menus.nav }}
           {{ $active := eq page.CurrentSection.Title .Name }}

@@ -6,10 +6,19 @@
     {{end}}
 {{end}}
 
-{{ $.Page.Store.SetInMap "elements" $label $label }}
+{{if eq ($.Page.Store.Get "__noretaxonomize") nil}}
+  {{ $prevCount := $.Page.Store.Get "__count"}}
+  {{if eq $prevCount nil}}
+  {{$prevCount = 1}}
+  {{end}}
+  {{ $s := newScratch }}
+  {{ $s.Set "count" $prevCount }}
+  {{ $s.Add "count" 1}}
+  {{ $.Page.Store.Set "__count" ($s.Get "count") }}
 
-<div class="shadow-lg rounded-lg mb-4 container scroll-m-16" id="{{$label}}">
-  <div class="prose prose-lg p-8">
-    {{ .Inner | .Page.RenderString }}
-  </div>
+  {{ $.Page.Store.SetInMap "elements" (strings.Repeat $prevCount "a") $label }}
+{{end}}
+
+<div class="bg-white shadow-lg mb-4 px-4 py-2 rounded-lg scroll-mt-24 container" id="{{$label}}">
+  {{ .Inner | .Page.RenderString }}
 </div>
