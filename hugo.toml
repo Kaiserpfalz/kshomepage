@@ -51,7 +51,7 @@ unsafe= true
     identifier = "intern"
     name = "Intern"
     url = "https://intern.kaiserpfalz-aachen.de"
-    weight = 4
+    weight = 5
 
 [[module.mounts]]
 source = 'assets'
