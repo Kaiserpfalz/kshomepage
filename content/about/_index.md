@@ -41,7 +41,7 @@ Freundschaften fürs Leben, geprägt von gegenseitiger Unterstützung und Austau
 {{<card src="about/prinzipien/patria.jpg" stacked="true">}}
 ## Patria
 
-Einstehen für die Freiheitlich- demokratsche Grundordnung
+Einstehen für die freiheitlich-demokratische Grundordnung
 unseres Staates und Bekenntnis zu unseren kulturellen
 Wurzeln in einem zusammenwachsenden Europa
 {{</card>}}
