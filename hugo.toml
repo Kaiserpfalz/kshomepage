@@ -47,6 +47,12 @@ unsafe= true
     url = "/kontakt"
     weight = 4
 
+    [[menu.nav]]
+    identifier = "intern"
+    name = "Intern"
+    url = "https://intern.kaiserpfalz-aachen.de"
+    weight = 4
+
 [[module.mounts]]
 source = 'assets'
 target = 'assets'
