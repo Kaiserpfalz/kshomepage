@@ -3,7 +3,7 @@ title: 'Semesterprogramm'
 summary: "Allgemeine Informationen zu unseren Veranstaltungen sowie aktuelles Semesterprogramm"
 og_description: "Allgemeine Informationen und Termine"
 ---
-{{<semproDL filename="semesterprogramm/semesterprogramm_sommer2026.pdf">}}
+{{<semproDL filename="semesterprogramm/Sempro_WiSe2627.pdf">}}
 
 {{<section>}}
 ## Unser Semester
